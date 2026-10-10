@@ -2,18 +2,17 @@ name: experimentacionmlflow
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.11.17
   - pip
-  - ruff
-  - pandas 
-  - numpy
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - mlflow
-  - jupyterlab
-  - ipykernel
+  - ruff=0.17.0 
+  - pandas=3.0.6
+  - numpy=2.4.6
+  - scikit-learn=1.9.1
+  - matplotlib=3.11.2
+  - seaborn=0.13.2
+  - mlflow=3.17.0
+  - jupyterlab=4.6.4
+  - ipykernel=7.4.0
   - pip:
-    - python-dotenv
-    - ucimlrepo
+    - ucimlrepo==0.0.7
     - -e .
