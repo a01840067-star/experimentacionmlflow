@@ -1,0 +1,39 @@
+artifact_path: /mnt/c/Users/FernandoSoft/Documents/GitHub/MLOps/Semana4/Tarea/experimentacionmlflow/notebooks/mlruns/1/models/m-b36b937c625d4ae087719fe155eac069/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.17
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.17.0
+model_id: m-b36b937c625d4ae087719fe155eac069
+model_size_bytes: 9240
+model_uuid: m-b36b937c625d4ae087719fe155eac069
+prompts: null
+run_id: b1c38c38f39c4c1f8e73519fa3d53167
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "cylinders", "required": true}, {"type": "double",
+    "name": "displacement", "required": true}, {"type": "double", "name": "horsepower",
+    "required": true}, {"type": "long", "name": "weight", "required": true}, {"type":
+    "double", "name": "acceleration", "required": true}, {"type": "long", "name":
+    "model_year", "required": true}, {"type": "long", "name": "origin_Jap\u00f3n",
+    "required": true}, {"type": "long", "name": "origin_USA", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-10 00:54:19.409993'
