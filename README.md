@@ -44,7 +44,7 @@ python -m experimentacionmlflowModule.modeling.train --degree 2 --alpha 10 --log
 | `--log-target` | desactivado | Entrena sobre log(mpg) |
 | `--test-size` | `0.2` | Proporcion del conjunto de prueba |
 | `--seed` | `42` | Semilla aleatoria del split |
-| `--experiment` | `<nombre del experimento>` | Experimento de MLflow |
+| `--experiment` | `auto-mpg-ridge` | Experimento de MLflow |
 
 Para ver la ayuda completa: `python -m experimentacionmlflowModule.modeling.train --help`
 
