@@ -1,0 +1,17 @@
+name: experimentacionmlflow
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ruff
+  - pandas 
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - mlflow
+  - pip:
+    - python-dotenv
+    - ucimlrepo
+    - -e .
