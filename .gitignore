@@ -189,3 +189,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# MLflow
+mlflow.db
+mlruns/
+mlartifacts/
+
+reports/metricas.json
+reports/figures/residuos_test.png
